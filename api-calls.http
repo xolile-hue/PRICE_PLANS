@@ -1,0 +1,29 @@
+POST http://localhost:6001/api/phonebill/
+content-type: application/json
+
+{
+    "price_plan": "sms 101",
+    "actions" : "call, sms, call"
+}
+
+###
+
+GET http://localhost:6001/api/price_plans
+
+
+###
+
+POST http://localhost:6001/api/price_plan/update
+content-type: application/json
+
+{
+    "price_plan": "sms 101",
+    "sms_price" : 0.37,
+    "call_price" : 1.28
+}
+
+
+
+
+
+
