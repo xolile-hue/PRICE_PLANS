@@ -56,7 +56,7 @@ app.get('/api/price_plans', async function (req, res) {
     })
 });
 console.log('done!');
-const PORT = 6001;
+const PORT = process.env.PORT || 6001;
 app.listen(PORT, function () {
     console.log(`Price plan API started on port ${PORT}`)
 });
