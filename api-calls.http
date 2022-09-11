@@ -18,7 +18,7 @@ content-type: application/json
 
 {
     "price_plan": "sms 101",
-    "sms_price" : 0.50,
+    "sms_price" : 0.80,
     "call_price" : 1.28
 }
 
